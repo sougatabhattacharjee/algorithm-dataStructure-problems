@@ -4,6 +4,16 @@ package ds.linkedlist;
  * Checks if a linked list of values forms a palindrome
  * Created by Sougata on 5/8/2016.
  */
+
+/**
+ * Input  : m -> ad -> a -> m -> NULL
+ * Output : True
+ * String "madam" is palindrome.
+ *
+ * Output : m -> ad -> a -> m -> a -> NULL
+ * Output : False
+ * String "madama" is not palindrome.
+ */
 public class PalindromeChecker {
 
     public boolean isPalindrome(final SinglyLinkedList singlyLinkedList) {
